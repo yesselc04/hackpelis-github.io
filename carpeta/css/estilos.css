@@ -1,0 +1,112 @@
+/*caja central de inicio de sesion*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../imagenes/imagen1.png);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    max-width: 800px;
+    width: 90%;
+    padding: 150px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 250px;
+    background-size: cover;
+}
+
+/*Formularios Iniciar sesion*/
+.contenedor__login-register{
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    padding: 20px;
+    margin: center;
+    max-width: 600px;
+    position: relative;
+    top: -400px;
+    left: 10px;
+}
+
+.contenedor__login-register form{
+    width: 100%;
+    padding: 90px 20px;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(3, 3, 3, 0.6);
+    position: absolute;
+    border-radius: 30px;
+}
+
+.contenedor__login-register form h2{
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f00909;
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    text-decoration: center;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    background: #ff0404;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+.formulario__register{
+    display: none;
+}
+@media screen and (max-width: 850px){
+    main{
+        margin-top: 50px;
+    }
+
+    /*Formularios*/
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login-register form{
+        position: relative;
+    }
+}
+
+
+
+
+
